@@ -1,0 +1,79 @@
+/*
+Styles for image slider and slides
+ */
+
+#cs-content .x-flexslider-shortcode-container.cs-image-slider {
+	margin-bottom: 0;
+}
+
+.cs-image-slider {
+	font-size: 1rem;
+ 	line-height: 1.1;
+}
+
+.cs-image-slider-item.x-slide {
+	padding-top: 56.25%;
+	width: 100%;
+	font-size: 16px;
+}
+
+@media (min-width: 768px) {
+	.cs-image-slider-item.x-slide {
+		font-size: 1rem;
+	}
+}
+
+.cs-image-slider-item .slide-content {
+	width: 100%;
+	color: #fff;
+	position: absolute;
+ 	top: 50%;
+ 	transform: translateY(-50%);
+
+	/* text-shadow: 2px 2px 2px rgba(0, 0, 0, 1); */
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.cs-image-slider-item .slide-content p {
+	display: none;
+	font-size: 16px;
+}
+
+@media (min-width: 770px) {
+	.cs-image-slider-item .slide-content p {
+		display: block;
+	}
+}
+
+@media (min-width: 768px) {
+	.slide-content.cs-text-pos-left {
+		padding-right: 66%;
+	}
+}
+
+@media (min-width: 768px) {
+	.slide-content.cs-text-pos-right {
+		padding-left: 66%;
+	}
+}
+
+@media (min-width: 768px) {
+	.slide-content.cs-text-pos-center {
+		padding-left: 33%;
+		padding-right: 33%;
+		text-align: center;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1499px) {
+	.cs-image-slider-item .slide-content h1 {
+		font-size: 40px;
+	}
+}
+
+@media (min-width: 1500px) {
+	.cs-image-slider-item .slide-content p {
+		font-size: 1rem;
+	}
+}
