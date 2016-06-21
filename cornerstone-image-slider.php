@@ -1,7 +1,7 @@
 <?php
 
 /*
-Plugin Name: Image Slider for Cornerstone
+Plugin Name: Cornerstone: Image Slideshow
 Description: Displays an image slider with overlayed text.
 Author: Justin Tucker (Certain Strings)
 Author URI: http://certainstrings.com
