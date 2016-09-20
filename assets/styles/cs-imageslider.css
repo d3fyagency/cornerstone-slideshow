@@ -40,6 +40,16 @@ Styles for image slider and slides
 	font-size: 16px;
 }
 
+#cs-content .x-flexslider-shortcode-container .x-slide img {
+    width: auto !important;
+}
+
+.cs-image-slider {
+    font-size: 1rem;
+     line-height: 1.1;
+    overflow: hidden !important;
+}
+
 @media (min-width: 770px) {
 	.cs-image-slider-item .slide-content p {
 		display: block;
